@@ -24,8 +24,9 @@ html, body {
 }
 
 .corpus {
-  height: 80px;
+  height: 60px;
   cursor: pointer;
+  padding: 10px 0 10px 18px;
 }
  
 /* animated xs */
@@ -440,6 +441,10 @@ p {
         display: none;
     }
 
+    .corpus {
+      height: 100px;
+      padding: 10px 0;
+    }
     .container {
       flex-direction: row;
       margin: 0 auto;
